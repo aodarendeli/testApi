@@ -1,5 +1,6 @@
 using FreeApi.Data;
 using FreeApi.Dtos;
+using FreeApi.Helpers;
 using FreeApi.Interfaces;
 using FreeApi.Mappers;
 using Microsoft.AspNetCore.Mvc;
@@ -21,9 +22,9 @@ namespace FreeApi.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] QueryObject query)
         {
-            var stocks = await _stockRepository.GetAllAsync();
+            var stocks = await _stockRepository.GetAllAsync(query);
 
             var stocksDto = stocks.Select(s => s.ToStockDto()).ToList();
 

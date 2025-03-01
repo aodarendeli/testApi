@@ -112,3 +112,17 @@
 /Users/ahmetozgurdarendeli/Desktop/test/FreeApi/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /Users/ahmetozgurdarendeli/Desktop/test/FreeApi/bin/Debug/net8.0/Newtonsoft.Json.dll
 /Users/ahmetozgurdarendeli/Desktop/test/FreeApi/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
+/Users/ahmetozgurdarendeli/Desktop/test/FreeApi/obj/Debug/net8.0/FreeApi.sourcelink.json
+/Users/ahmetozgurdarendeli/Desktop/test/FreeApi/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/ahmetozgurdarendeli/Desktop/test/FreeApi/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/ahmetozgurdarendeli/Desktop/test/FreeApi/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/ahmetozgurdarendeli/Desktop/test/FreeApi/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/ahmetozgurdarendeli/Desktop/test/FreeApi/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
+/Users/ahmetozgurdarendeli/Desktop/test/FreeApi/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/ahmetozgurdarendeli/Desktop/test/FreeApi/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/ahmetozgurdarendeli/Desktop/test/FreeApi/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/ahmetozgurdarendeli/Desktop/test/FreeApi/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/ahmetozgurdarendeli/Desktop/test/FreeApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/ahmetozgurdarendeli/Desktop/test/FreeApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/ahmetozgurdarendeli/Desktop/test/FreeApi/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/ahmetozgurdarendeli/Desktop/test/FreeApi/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll

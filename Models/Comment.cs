@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace FreeApi.Models
 {
+    [Table("Comments")]
     public class Comment
     {
         [Key]

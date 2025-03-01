@@ -25,9 +25,16 @@ namespace FreeApi.Repository
             return commentModel;
         }
 
-        public Task<Comment?> DeleteAsync(int id)
+        public async Task<Comment?> DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            var model =  await _context.Comments.FirstOrDefaultAsync(x => x.Id == id);
+            if(model == null)
+            {
+                return null;
+            }
+            _context.Comments.Remove(model);
+            await _context.SaveChangesAsync();
+            return model;
         }
 
         public async Task<List<Comment>> GetAllAsync()
